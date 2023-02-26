@@ -1,0 +1,43 @@
+.tasklist {
+    max-width: 46rem;
+    margin: 0 auto;
+}
+
+.taskList header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.taskList header div {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.taskList header p {
+    font-size: 0.875rem;
+    color: var(--blue-light);
+    font-weight: bold;
+}
+
+.taskList header span {
+    font-size: 0.75rem;
+    background: var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+}
+
+.taskEmpty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-300);
+}
+
+.taskEmpty p {
+    font-weight: bold;
+    padding-top: 1rem;
+}
